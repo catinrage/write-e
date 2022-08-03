@@ -1,0 +1,33 @@
+{
+  "name": "greenhole",
+  "version": "1.0.0",
+  "description": "an easy to setup/manage personal blog",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "migrate": "prisma migrate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/catinrage/greenhole.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "catinrage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catinrage/greenhole/issues"
+  },
+  "homepage": "https://github.com/catinrage/greenhole#readme",
+  "dependencies": {
+    "@prisma/client": "^4.1.1",
+    "apollo-server": "^3.10.0",
+    "graphql": "^16.5.0",
+    "sqlite3": "^5.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prisma": "^4.1.1"
+  }
+}
